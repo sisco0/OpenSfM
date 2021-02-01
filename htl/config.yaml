@@ -1,0 +1,13 @@
+
+# OpenSfM will use the default parameters from opensfm/config.py
+# Set here any parameter that you want to override for this dataset
+# For example:
+feature_min_frames: 16000      # If fewer frames are detected, sift_peak_threshold/surf_hessian_threshold is reduced.
+feature_process_size: 4098
+feature_min_frames_panorama: 100
+processes: 4                  # Number of threads to use
+feature_type: ASIFT
+feature_process_size: -1
+sift_peak_threshold: 0.1
+#robust_matching_threshold: 0.0004
+robust_matching_min_match: 5
